@@ -42,7 +42,7 @@ public class NumberDisplayDefenition : MonoBehaviour
         {
             GameObject temp = transform.GetChild(i).gameObject;
             RectTransform pos = temp.GetComponent<RectTransform>();
-            pos.localPosition = new Vector3(i*(pos.sizeDelta.x + _spacePadding), pos.localPosition.y, pos.localPosition.z);
+            pos.localPosition = new Vector3(i*(pos.sizeDelta.x + _spacePadding), 0 , pos.localPosition.z);
 
         }//end for
     }//end UpdateSpacing
@@ -118,6 +118,13 @@ public class NumberDisplayDefenition : MonoBehaviour
             _converted = false;
         }//end if
 
+        if(_spacePadding != _lastValuePadding)
+        {
+            UpdateSpacing();
+        }//end if 
+
+        _oldNumericValue = _numericValue;
+        _lastValuePadding = _spacePadding;
 
     }//end Update
 
