@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Omori Font
   m_EditorClassIdentifier: 
   _numberSprites:
-  - {fileID: 5008618591525921082, guid: 9174dc7ac412009479102f8850c5dde6, type: 3}
-  - {fileID: -1101112517093155921, guid: 9174dc7ac412009479102f8850c5dde6, type: 3}
-  - {fileID: 824735759888566217, guid: 9174dc7ac412009479102f8850c5dde6, type: 3}
-  - {fileID: -4259559644102607191, guid: 9174dc7ac412009479102f8850c5dde6, type: 3}
-  - {fileID: -2988727125795060549, guid: 9174dc7ac412009479102f8850c5dde6, type: 3}
-  - {fileID: 3537284358790449686, guid: 9174dc7ac412009479102f8850c5dde6, type: 3}
-  - {fileID: 9181770545084868319, guid: 9174dc7ac412009479102f8850c5dde6, type: 3}
-  - {fileID: -7139727057488395575, guid: 9174dc7ac412009479102f8850c5dde6, type: 3}
-  - {fileID: 8837156389444919832, guid: 9174dc7ac412009479102f8850c5dde6, type: 3}
-  - {fileID: 8989920343682186267, guid: 9174dc7ac412009479102f8850c5dde6, type: 3}
+  - {fileID: 21300000, guid: 3ae07086975c0a74b8ed2b01667efcc5, type: 3}
+  - {fileID: 21300000, guid: 77690ce5c519d574d831e873702798fa, type: 3}
+  - {fileID: 21300000, guid: 84fad3a744c9a6d4d8bdcb3f366814f4, type: 3}
+  - {fileID: 21300000, guid: 6bb49e3f10c706249b9493c073949d30, type: 3}
+  - {fileID: 21300000, guid: 88aeaa5bed2b6554b99926954042a457, type: 3}
+  - {fileID: 21300000, guid: 20ee2fb835814fb4ba783ffb7bdeaf6e, type: 3}
+  - {fileID: 21300000, guid: d9b2eabf576d7ad46a2be1df8466d6dd, type: 3}
+  - {fileID: 21300000, guid: 4ff4653d62023c845b9006b1d409987f, type: 3}
+  - {fileID: 21300000, guid: 6d5deac1e7b4ecb43b97518081120738, type: 3}
+  - {fileID: 21300000, guid: e227fe977af8ee94392fdd016f983aab, type: 3}
