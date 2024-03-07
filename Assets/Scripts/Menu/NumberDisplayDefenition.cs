@@ -18,7 +18,7 @@ public class NumberDisplayDefenition : MonoBehaviour
     public int _spacePadding = 5;
     private int _lastValuePadding = 5;
 
-    public Sprite[] fontSprites = new Sprite[10];
+    public ScriptableNumberFont _numberSprites;
 
     public void CreateNewDigits()
     {
@@ -79,7 +79,7 @@ public class NumberDisplayDefenition : MonoBehaviour
         for (int i = 0; i < _numDigits; i++)
         {
             //update digits to relfect numbers
-            transform.GetChild(i).GetComponent<Image>().sprite = fontSprites[int.Parse(splitVal[i].ToString())];
+            transform.GetChild(i).GetComponent<Image>().sprite = _numberSprites._numberSprites[int.Parse(splitVal[i].ToString())];
         }//end ofr
 
         _converted = true;
